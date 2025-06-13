@@ -1,0 +1,166 @@
+
+=== TRUST BEHAVIOR COMPARISON ACROSS DEMOGRAPHIC GROUPS ===
+
+
+=== GENDER ===
+
+Statistical tests for GENDER:
+Kruskal-Wallis test for overtrust count: H=5.583, p=0.1338
+Kruskal-Wallis test for overtrust confidence: H=5.433, p=0.1427
+Kruskal-Wallis test for undertrust count: H=6.071, p=0.1082
+Kruskal-Wallis test for undertrust confidence: H=3.441, p=0.3286
+Kruskal-Wallis test for appropriate count: H=1.684, p=0.6405
+Kruskal-Wallis test for appropriate confidence: H=5.476, p=0.1401
+
+--- DEMOGRAPHIC GROUP: male ---
+ Trust Type Median Count Mean Count StdDev Count Mean Confidence StdDev Confidence
+  Overtrust         9.00       8.79         1.91            4.03              0.55
+ Undertrust         0.00       1.38         1.82            3.49              0.89
+Appropriate        11.00      11.82         1.83            4.16              0.54
+
+--- DEMOGRAPHIC GROUP: female ---
+ Trust Type Median Count Mean Count StdDev Count Mean Confidence StdDev Confidence
+  Overtrust         8.00       8.22         2.31            4.04              0.63
+ Undertrust         1.00       2.01         2.21            3.31              0.90
+Appropriate        11.00      11.77         1.87            4.07              0.60
+
+--- DEMOGRAPHIC GROUP: prefer_not_say ---
+ Trust Type Median Count Mean Count StdDev Count Mean Confidence StdDev Confidence
+  Overtrust         4.00       4.00          nan            3.75               nan
+ Undertrust         4.00       4.00          nan            3.75               nan
+Appropriate        14.00      14.00          nan            4.14               nan
+
+--- DEMOGRAPHIC GROUP: non_binary ---
+ Trust Type Median Count Mean Count StdDev Count Mean Confidence StdDev Confidence
+  Overtrust         9.00       9.00         2.83            5.00              0.00
+ Undertrust         1.50       1.50         2.12            5.00               nan
+Appropriate        11.50      11.50         0.71            4.95              0.06
+
+
+=== AGE_BRACKET ===
+
+Statistical tests for AGE_BRACKET:
+Kruskal-Wallis test for overtrust count: H=3.363, p=0.6443
+Kruskal-Wallis test for overtrust confidence: H=7.025, p=0.2188
+Kruskal-Wallis test for undertrust count: H=3.970, p=0.5538
+Kruskal-Wallis test for undertrust confidence: H=2.589, p=0.7631
+Kruskal-Wallis test for appropriate count: H=5.634, p=0.3435
+Kruskal-Wallis test for appropriate confidence: H=5.601, p=0.3470
+
+--- DEMOGRAPHIC GROUP: 25_34 ---
+ Trust Type Median Count Mean Count StdDev Count Mean Confidence StdDev Confidence
+  Overtrust         8.00       8.47         2.07            4.12              0.64
+ Undertrust         1.00       1.69         2.01            3.46              0.98
+Appropriate        11.00      11.84         1.94            4.16              0.55
+
+--- DEMOGRAPHIC GROUP: 18_24 ---
+ Trust Type Median Count Mean Count StdDev Count Mean Confidence StdDev Confidence
+  Overtrust         9.00       8.43         2.39            4.01              0.63
+ Undertrust         1.00       2.06         2.14            3.48              0.82
+Appropriate        11.00      11.51         1.70            4.08              0.60
+
+--- DEMOGRAPHIC GROUP: 65_plus ---
+ Trust Type Median Count Mean Count StdDev Count Mean Confidence StdDev Confidence
+  Overtrust         9.00       8.20         1.55            3.89              0.41
+ Undertrust         2.00       1.70         1.49            3.29              0.95
+Appropriate        12.00      12.10         1.73            3.85              0.54
+
+--- DEMOGRAPHIC GROUP: 35_44 ---
+ Trust Type Median Count Mean Count StdDev Count Mean Confidence StdDev Confidence
+  Overtrust         9.00       9.03         1.88            4.06              0.57
+ Undertrust         0.00       1.27         1.87            3.09              0.98
+Appropriate        11.00      11.70         1.91            4.25              0.57
+
+--- DEMOGRAPHIC GROUP: 55_64 ---
+ Trust Type Median Count Mean Count StdDev Count Mean Confidence StdDev Confidence
+  Overtrust         8.50       7.80         2.53            4.17              0.44
+ Undertrust         1.00       1.30         1.49            3.39              0.76
+Appropriate        12.00      12.90         1.91            4.21              0.53
+
+--- DEMOGRAPHIC GROUP: 45_54 ---
+ Trust Type Median Count Mean Count StdDev Count Mean Confidence StdDev Confidence
+  Overtrust         9.00       8.52         2.20            3.88              0.46
+ Undertrust         0.00       1.59         2.34            3.57              0.81
+Appropriate        12.00      11.90         1.65            4.01              0.60
+
+
+=== EDUCATION ===
+
+Statistical tests for EDUCATION:
+Kruskal-Wallis test for overtrust count: H=8.765, p=0.1188
+Kruskal-Wallis test for overtrust confidence: H=6.164, p=0.2906
+Kruskal-Wallis test for undertrust count: H=6.625, p=0.2500
+Kruskal-Wallis test for undertrust confidence: H=0.826, p=0.9753
+Kruskal-Wallis test for appropriate count: H=4.718, p=0.4512
+Kruskal-Wallis test for appropriate confidence: H=1.079, p=0.9559
+
+--- DEMOGRAPHIC GROUP: some_college ---
+ Trust Type Median Count Mean Count StdDev Count Mean Confidence StdDev Confidence
+  Overtrust         7.50       7.60         2.28            4.02              0.62
+ Undertrust         1.00       2.10         2.20            3.41              0.93
+Appropriate        12.00      12.30         1.78            4.16              0.44
+
+--- DEMOGRAPHIC GROUP: bachelor ---
+ Trust Type Median Count Mean Count StdDev Count Mean Confidence StdDev Confidence
+  Overtrust         9.00       8.70         2.00            4.09              0.58
+ Undertrust         1.00       1.70         1.99            3.44              0.90
+Appropriate        11.00      11.59         1.86            4.16              0.54
+
+--- DEMOGRAPHIC GROUP: master ---
+ Trust Type Median Count Mean Count StdDev Count Mean Confidence StdDev Confidence
+  Overtrust         8.00       8.22         2.39            4.03              0.60
+ Undertrust         1.00       1.69         2.23            3.33              0.88
+Appropriate        11.00      12.10         1.94            4.08              0.60
+
+--- DEMOGRAPHIC GROUP: high_school_diploma ---
+ Trust Type Median Count Mean Count StdDev Count Mean Confidence StdDev Confidence
+  Overtrust         9.00       9.06         1.70            3.77              0.62
+ Undertrust         0.00       0.94         1.47            3.35              1.04
+Appropriate        12.00      12.00         1.50            4.10              0.67
+
+--- DEMOGRAPHIC GROUP: other ---
+ Trust Type Median Count Mean Count StdDev Count Mean Confidence StdDev Confidence
+  Overtrust         6.00       6.00         2.83            3.69              0.09
+ Undertrust         4.00       4.00         0.00            3.25              0.71
+Appropriate        12.00      12.00         2.83            3.92              0.31
+
+--- DEMOGRAPHIC GROUP: doctoral ---
+ Trust Type Median Count Mean Count StdDev Count Mean Confidence StdDev Confidence
+  Overtrust         9.00       8.95         1.99            4.16              0.57
+ Undertrust         1.00       1.50         1.82            3.57              1.07
+Appropriate        11.00      11.55         1.73            4.05              0.73
+
+
+=== AI_FAMILIARITY ===
+
+Statistical tests for AI_FAMILIARITY:
+Kruskal-Wallis test for overtrust count: H=1.362, p=0.7144
+Kruskal-Wallis test for overtrust confidence: H=8.629, p=0.0346
+Kruskal-Wallis test for undertrust count: H=2.524, p=0.4710
+Kruskal-Wallis test for undertrust confidence: H=3.030, p=0.2198
+Kruskal-Wallis test for appropriate count: H=2.924, p=0.4035
+Kruskal-Wallis test for appropriate confidence: H=2.906, p=0.4063
+
+--- DEMOGRAPHIC GROUP: moderate ---
+ Trust Type Median Count Mean Count StdDev Count Mean Confidence StdDev Confidence
+  Overtrust         9.00       8.62         2.16            3.91              0.60
+ Undertrust         0.00       1.54         1.97            3.20              0.93
+Appropriate        11.00      11.84         1.97            4.05              0.60
+
+--- DEMOGRAPHIC GROUP: high ---
+ Trust Type Median Count Mean Count StdDev Count Mean Confidence StdDev Confidence
+  Overtrust         9.00       8.54         2.09            4.16              0.57
+ Undertrust         1.00       1.80         2.00            3.53              0.82
+Appropriate        11.00      11.66         1.79            4.20              0.52
+
+--- DEMOGRAPHIC GROUP: none ---
+ Trust Type Median Count Mean Count StdDev Count Mean Confidence StdDev Confidence
+  Overtrust         9.00       9.00          nan            4.00               nan
+ Undertrust         0.00       0.00          nan             N/A               N/A
+Appropriate        13.00      13.00          nan            4.38               nan
+
+--- DEMOGRAPHIC GROUP: basic ---
+ Trust Type Median Count Mean Count StdDev Count Mean Confidence StdDev Confidence
+  Overtrust         8.00       8.19         2.23            4.01              0.57
+ Undertrust         1.00       1.69         2.24            3.46              1.05
+Appropriate        12.00      12.11         1.70            4.09              0.64

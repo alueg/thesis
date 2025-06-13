@@ -1,0 +1,23 @@
+Trial,Factors tested,Name,Confidence (A),Description (B),Feat. Imp. (C),Feat. Contri (E),SPAM/HAM,CORRECTNESS,Done?,Kolonne 2
+2,1,A3B3C3E1,3,3,3,1,HAM,Incorrect,True,True
+4,1,A3B3C1E3,3,3,1,3,HAM,Incorrect,True,True
+8,2,A2B3C3E1,2,3,3,1,SPAM,Incorrect,True,True
+10,2,A1B3C3E1,1,3,3,1,HAM,Incorrect,True,True
+12,2,A1B3C1E3,1,3,1,3,SPAM,Correct,True,True
+16,2,A3B1C3E1,3,1,3,1,SPAM,Correct,True,True
+19,2,A2B3C1E3,2,3,1,3,SPAM,Correct,True,True
+20,2,A3B2C1E3,3,2,1,3,HAM,Incorrect,True,True
+22,2,A3B2C3E1,3,2,3,1,SPAM,Incorrect,True,True
+24,2,A3B1C1E3,3,1,1,3,SPAM,Correct,True,True
+28,3,A2B1C1E3,2,1,1,3,SPAM,Correct,True,True
+30,3,A1B1C3E1,1,1,3,1,HAM,Correct,True,True
+32,3,A2B2C1E3,2,2,1,3,SPAM,Correct,True,True
+34,3,A2B1C3E1,2,1,3,1,SPAM,Incorrect,True,True
+36,3,A2B2C3E1,2,2,3,1,HAM,Correct,True,True
+39,3,A1B1C1E3,1,1,1,3,HAM,Correct,True,True
+40,3,A1B2C3E1,1,2,3,1,SPAM,Incorrect,True,True
+42,3,A1B2C1E3,1,2,1,3,SPAM,Incorrect,True,True
+0,1,A1B3C3E3,1,3,3,3,SPAM,Incorrect,True,True
+6,1,A3B2C3E3,3,2,3,3,HAM,Incorrect,True,True
+9,2,A2B2C3E3,2,2,3,3,SPAM,Correct,True,True
+14,2,A1B2C3E3,1,2,3,3,HAM,Correct,True,True

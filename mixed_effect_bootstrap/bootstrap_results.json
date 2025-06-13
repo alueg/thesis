@@ -1,0 +1,491 @@
+{
+  "analysis_info": {
+    "timestamp": "2025-06-13T10:25:10.294797",
+    "bootstrap_parameters": {
+      "n_bootstrap": 1000,
+      "confidence_level": 0.95,
+      "random_state": 42,
+      "trust_types_analyzed": [
+        "overtrust",
+        "undertrust",
+        "appropriate"
+      ],
+      "analysis_type": "mixed-effects logistic regression",
+      "n_participants": 222
+    },
+    "confidence_level": 0.95,
+    "analysis_type": "mixed-effects logistic regression"
+  },
+  "bootstrap_results": {
+    "overtrust": {
+      "Intercept": {
+        "mean": 0.0701805999694571,
+        "median": 0.06918709488140215,
+        "std": 0.09729165642012055,
+        "ci_lower": -0.11343394381826516,
+        "ci_upper": 0.2569990679250198,
+        "significant": false
+      },
+      "A1": {
+        "mean": 0.3297913800490537,
+        "median": 0.3348014710793453,
+        "std": 0.09346775229383338,
+        "ci_lower": 0.14791368030158977,
+        "ci_upper": 0.4986390666770439,
+        "significant": true
+      },
+      "A2": {
+        "mean": -0.592568747968959,
+        "median": -0.5869383509441078,
+        "std": 0.09697917535670746,
+        "ci_lower": -0.7847733810132429,
+        "ci_upper": -0.41685116393831906,
+        "significant": true
+      },
+      "B1": {
+        "mean": -0.5840570559546414,
+        "median": -0.5843888354005827,
+        "std": 0.0973303079827748,
+        "ci_lower": -0.7823130146315028,
+        "ci_upper": -0.40749159247912403,
+        "significant": true
+      },
+      "B2": {
+        "mean": 0.06438831445042206,
+        "median": 0.06363452190504341,
+        "std": 0.05688969932712007,
+        "ci_lower": -0.040725905844243744,
+        "ci_upper": 0.1752718459260411,
+        "significant": false
+      },
+      "C1": {
+        "mean": -0.7846582551420177,
+        "median": -0.783871958147764,
+        "std": 0.06158154610164476,
+        "ci_lower": -0.9076008211788457,
+        "ci_upper": -0.6644943789605865,
+        "significant": true
+      },
+      "C2": {
+        "mean": -0.159193677096035,
+        "median": -0.15935774373830008,
+        "std": 0.06976587463051964,
+        "ci_lower": -0.2878103682388755,
+        "ci_upper": -0.017435270220974942,
+        "significant": true
+      },
+      "D1": {
+        "mean": 0.38146202868711615,
+        "median": 0.383779671780101,
+        "std": 0.07632204995357007,
+        "ci_lower": 0.2228109540878454,
+        "ci_upper": 0.5282497651252855,
+        "significant": true
+      },
+      "D2": {
+        "mean": -1.0239306543486568,
+        "median": -1.0222724153527636,
+        "std": 0.07318499008019824,
+        "ci_lower": -1.1620211021778302,
+        "ci_upper": -0.8868610059871086,
+        "significant": true
+      }
+    },
+    "undertrust": {
+      "Intercept": {
+        "mean": -3.6771478957242767,
+        "median": -3.6556392939018454,
+        "std": 0.21549742493508148,
+        "ci_lower": -4.121538981345449,
+        "ci_upper": -3.2790463394875724,
+        "significant": true
+      },
+      "A1": {
+        "mean": -0.9545346762400491,
+        "median": -0.9558158398425852,
+        "std": 0.18196876112780386,
+        "ci_lower": -1.3239757487816335,
+        "ci_upper": -0.5927007562648802,
+        "significant": true
+      },
+      "A2": {
+        "mean": 0.5747450844665564,
+        "median": 0.5628424763093827,
+        "std": 0.14120241654029358,
+        "ci_lower": 0.2979457794213162,
+        "ci_upper": 0.8598616011309624,
+        "significant": true
+      },
+      "B1": {
+        "mean": 0.07473311256642942,
+        "median": 0.07068462019942336,
+        "std": 0.1391372795912266,
+        "ci_lower": -0.1990181404564676,
+        "ci_upper": 0.34875013539609356,
+        "significant": false
+      },
+      "B2": {
+        "mean": -1.0105824899577285,
+        "median": -1.0036105192444222,
+        "std": 0.1738799056306686,
+        "ci_lower": -1.3545119392524425,
+        "ci_upper": -0.6587376069873346,
+        "significant": true
+      },
+      "C1": {
+        "mean": 0.519185936821064,
+        "median": 0.521646204839851,
+        "std": 0.19362260918465848,
+        "ci_lower": 0.1472922321343824,
+        "ci_upper": 0.881923967477569,
+        "significant": true
+      },
+      "C2": {
+        "mean": 1.1390715702903844,
+        "median": 1.1330415536946234,
+        "std": 0.18046641607392358,
+        "ci_lower": 0.7932772616690974,
+        "ci_upper": 1.492928610555953,
+        "significant": true
+      },
+      "D1": {
+        "mean": -1.1879231292706123,
+        "median": -1.179100082685502,
+        "std": 0.2620371034788418,
+        "ci_lower": -1.7443725971747093,
+        "ci_upper": -0.6463497246963659,
+        "significant": true
+      },
+      "D2": {
+        "mean": 1.024531335332163,
+        "median": 1.0221168313107079,
+        "std": 0.18512303519791876,
+        "ci_lower": 0.6636704844014994,
+        "ci_upper": 1.3826433732971326,
+        "significant": true
+      }
+    },
+    "appropriate": {
+      "Intercept": {
+        "mean": -0.29884653892700885,
+        "median": -0.3012141142155034,
+        "std": 0.09275646842824242,
+        "ci_lower": -0.469846581366492,
+        "ci_upper": -0.1070853250897183,
+        "significant": true
+      },
+      "A1": {
+        "mean": -0.13777998989065707,
+        "median": -0.14073557109944895,
+        "std": 0.08606801963517868,
+        "ci_lower": -0.30506534831882914,
+        "ci_upper": 0.032406568455376254,
+        "significant": false
+      },
+      "A2": {
+        "mean": 0.3457599847697979,
+        "median": 0.34119964245981177,
+        "std": 0.08718418612104897,
+        "ci_lower": 0.17861588271741963,
+        "ci_upper": 0.515399883460286,
+        "significant": true
+      },
+      "B1": {
+        "mean": 0.4853831460721682,
+        "median": 0.4838407405322508,
+        "std": 0.08461985420709875,
+        "ci_lower": 0.3274992553257625,
+        "ci_upper": 0.651095519693181,
+        "significant": true
+      },
+      "B2": {
+        "mean": 0.14856376181518194,
+        "median": 0.14898797234365851,
+        "std": 0.061628799325679884,
+        "ci_lower": 0.031369122854500296,
+        "ci_upper": 0.2668819822495244,
+        "significant": true
+      },
+      "C1": {
+        "mean": 0.5187196070234524,
+        "median": 0.5199257242224176,
+        "std": 0.07938135541584461,
+        "ci_lower": 0.3542603354364157,
+        "ci_upper": 0.6724936542785388,
+        "significant": true
+      },
+      "C2": {
+        "mean": -0.14136363802291035,
+        "median": -0.14089463579758227,
+        "std": 0.07224644884308666,
+        "ci_lower": -0.2791604925054479,
+        "ci_upper": 0.002542092811768717,
+        "significant": false
+      },
+      "D1": {
+        "mean": -0.2019563893486103,
+        "median": -0.2050702482395138,
+        "std": 0.07493978104957318,
+        "ci_lower": -0.33786840162417003,
+        "ci_upper": -0.04697063941798144,
+        "significant": true
+      },
+      "D2": {
+        "mean": 0.6574533858377622,
+        "median": 0.6566820407252937,
+        "std": 0.07816889087354105,
+        "ci_lower": 0.5042711795666405,
+        "ci_upper": 0.8075879520033865,
+        "significant": true
+      }
+    }
+  },
+  "effect_sizes": {
+    "overtrust": {
+      "Intercept": {
+        "odds_ratio": 1.072701893690697,
+        "or_ci_lower": 0.8927631669894828,
+        "or_ci_upper": 1.2930439215449043,
+        "significant": false
+      },
+      "A1": {
+        "odds_ratio": 1.3906779750280023,
+        "or_ci_lower": 1.1594128118791505,
+        "or_ci_upper": 1.6464789971210658,
+        "significant": true
+      },
+      "A2": {
+        "odds_ratio": 0.5529051849376622,
+        "or_ci_lower": 0.45622307888346203,
+        "or_ci_upper": 0.6591190133221455,
+        "significant": true
+      },
+      "B1": {
+        "odds_ratio": 0.5576314292185901,
+        "or_ci_lower": 0.45734693679350036,
+        "or_ci_upper": 0.6653170450414594,
+        "significant": true
+      },
+      "B2": {
+        "odds_ratio": 1.0665064582328645,
+        "or_ci_lower": 0.9600922495609691,
+        "or_ci_upper": 1.1915700960639162,
+        "significant": false
+      },
+      "C1": {
+        "odds_ratio": 0.4562756049863902,
+        "or_ci_lower": 0.40349111103055363,
+        "or_ci_upper": 0.5145336209710261,
+        "significant": true
+      },
+      "C2": {
+        "odds_ratio": 0.8528311691086605,
+        "or_ci_lower": 0.7499037843318435,
+        "or_ci_upper": 0.9827158445858197,
+        "significant": true
+      },
+      "D1": {
+        "odds_ratio": 1.4644240550516618,
+        "or_ci_lower": 1.2495843225974521,
+        "or_ci_upper": 1.6959613787132022,
+        "significant": true
+      },
+      "D2": {
+        "odds_ratio": 0.3591803480609938,
+        "or_ci_lower": 0.31285323312121155,
+        "or_ci_upper": 0.4119468239739045,
+        "significant": true
+      }
+    },
+    "undertrust": {
+      "Intercept": {
+        "odds_ratio": 0.02529501607533075,
+        "or_ci_lower": 0.016219533664663464,
+        "or_ci_upper": 0.03766415850614006,
+        "significant": true
+      },
+      "A1": {
+        "odds_ratio": 0.3849912484543754,
+        "or_ci_lower": 0.26607534756692075,
+        "or_ci_upper": 0.5528322016836961,
+        "significant": true
+      },
+      "A2": {
+        "odds_ratio": 1.7766775664735501,
+        "or_ci_lower": 1.3470887459680398,
+        "or_ci_upper": 2.3628336575696696,
+        "significant": true
+      },
+      "B1": {
+        "odds_ratio": 1.077596515534753,
+        "or_ci_lower": 0.819535026458609,
+        "or_ci_upper": 1.4172950142384417,
+        "significant": false
+      },
+      "B2": {
+        "odds_ratio": 0.364006887450271,
+        "or_ci_lower": 0.2580732191281324,
+        "or_ci_upper": 0.5175042160147801,
+        "significant": true
+      },
+      "C1": {
+        "odds_ratio": 1.6806589301110109,
+        "or_ci_lower": 1.1586925207471546,
+        "or_ci_upper": 2.4155426640615736,
+        "significant": true
+      },
+      "C2": {
+        "odds_ratio": 3.12386672773247,
+        "or_ci_lower": 2.21062937857046,
+        "or_ci_upper": 4.450109090318364,
+        "significant": true
+      },
+      "D1": {
+        "odds_ratio": 0.3048537488725453,
+        "or_ci_lower": 0.1747545961066307,
+        "or_ci_upper": 0.5239548698050785,
+        "significant": true
+      },
+      "D2": {
+        "odds_ratio": 2.785789553437763,
+        "or_ci_lower": 1.9419070086483403,
+        "or_ci_upper": 3.9854226757183127,
+        "significant": true
+      }
+    },
+    "appropriate": {
+      "Intercept": {
+        "odds_ratio": 0.7416732186700894,
+        "or_ci_lower": 0.6250981626324421,
+        "or_ci_upper": 0.8984490094773505,
+        "significant": true
+      },
+      "A1": {
+        "odds_ratio": 0.8712903633482898,
+        "or_ci_lower": 0.7370752061922141,
+        "or_ci_upper": 1.0329373797004577,
+        "significant": false
+      },
+      "A2": {
+        "odds_ratio": 1.4130634183713784,
+        "or_ci_lower": 1.195561420152518,
+        "or_ci_upper": 1.6743078959838078,
+        "significant": true
+      },
+      "B1": {
+        "odds_ratio": 1.6247974243497956,
+        "or_ci_lower": 1.3874940180665376,
+        "or_ci_upper": 1.917640491616043,
+        "significant": true
+      },
+      "B2": {
+        "odds_ratio": 1.1601667697552613,
+        "or_ci_lower": 1.0318663190395572,
+        "or_ci_upper": 1.30588631947018,
+        "significant": true
+      },
+      "C1": {
+        "odds_ratio": 1.6798753714848456,
+        "or_ci_lower": 1.4251261490283995,
+        "or_ci_upper": 1.9591165939738377,
+        "significant": true
+      },
+      "C2": {
+        "odds_ratio": 0.8681735533757888,
+        "or_ci_lower": 0.7564184939734064,
+        "or_ci_upper": 1.0025453266693753,
+        "significant": false
+      },
+      "D1": {
+        "odds_ratio": 0.8171305627613146,
+        "or_ci_lower": 0.7132891494156954,
+        "or_ci_upper": 0.9541154105628975,
+        "significant": true
+      },
+      "D2": {
+        "odds_ratio": 1.9298714333198843,
+        "or_ci_lower": 1.6557783155270065,
+        "or_ci_upper": 2.242492458603074,
+        "significant": true
+      }
+    }
+  },
+  "summary": {
+    "significant_effects": {
+      "overtrust": [
+        "A1",
+        "A2",
+        "B1",
+        "C1",
+        "C2",
+        "D1",
+        "D2"
+      ],
+      "undertrust": [
+        "Intercept",
+        "A1",
+        "A2",
+        "B2",
+        "C1",
+        "C2",
+        "D1",
+        "D2"
+      ],
+      "appropriate": [
+        "Intercept",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "D1",
+        "D2"
+      ]
+    },
+    "largest_effects": {
+      "overtrust": {
+        "factor": "D2",
+        "coefficient": -1.0239306543486568,
+        "significant": true
+      },
+      "undertrust": {
+        "factor": "Intercept",
+        "coefficient": -3.6771478957242767,
+        "significant": true
+      },
+      "appropriate": {
+        "factor": "D2",
+        "coefficient": 0.6574533858377622,
+        "significant": true
+      }
+    },
+    "total_factors_tested": 27,
+    "total_significant_effects": 22
+  },
+  "factor_coding": {
+    "A": {
+      "1": "Percentage format",
+      "2": "Raw output format",
+      "3": "Not present (baseline)"
+    },
+    "B": {
+      "1": "Short explanation",
+      "2": "Long explanation",
+      "3": "Not present (baseline)"
+    },
+    "C": {
+      "1": "Text description",
+      "2": "F1 score",
+      "3": "Not present (baseline)"
+    },
+    "D": {
+      "1": "Text description",
+      "2": "F1/F2/etc labels",
+      "3": "Not present (baseline)"
+    }
+  },
+  "interpretation_guide": {
+    "coefficients": "Positive coefficients increase the log-odds of the trust type",
+    "odds_ratios": "OR > 1 increases odds, OR < 1 decreases odds",
+    "significance": "Based on confidence interval not containing 0"
+  }
+}
